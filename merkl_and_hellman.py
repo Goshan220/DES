@@ -1,11 +1,13 @@
-import math
 
 class MerklHellman:
     def __init__(self):
-        self.closed_key = [2, 3, 6, 13, 27, 52]
+        # self.closed_key = [2, 3, 6, 13, 27, 52]
+        # self.m = 105
+        # self.n = 31
+        self.closed_key = [2, 4, 7, 17, 33, 70]
+        self.m = 120
+        self.n = 37
         self.open_key = list()
-        self.m = 105
-        self.n = 31
         self.message = []
 
     def __evklid(self, a, b):
