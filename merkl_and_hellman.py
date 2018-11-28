@@ -87,6 +87,7 @@ class MerklHellman:
                     result += "0"
             result = result[::-1]
             decrypted = decrypted + result
+            print (self.open_key)
         return self.__bit_to_string(decrypted)
 
 
